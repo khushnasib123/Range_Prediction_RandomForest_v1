@@ -163,14 +163,19 @@ st.title("Energy Consumption Prediction App")
 
 
 # Assuming user input for Running Cycle and other features is handled elsewhere (replace with your logic)
-b = 0.026
+
 b = st.number_input("Aerodynamic Coeficient (b): ", min_value=0.0)  # Add min/max values if applicable
 
-crr = 0.18
+crr = st.number_input("crr: ", min_value=0.0)  # Add min/max values if applicable
+
+independent_gvw = st.number_input("independent_gvw: ", min_value=0.0)  # Add min/max values if applicable
+
+
+# crr = 0.18
 peak_motor_power =4.2
 drr = 0.221
 final_gear = 9.82
-independent_gvw = 200
+# independent_gvw = 200
 Battery_Energy = 2.8
 DOD = 90
 
