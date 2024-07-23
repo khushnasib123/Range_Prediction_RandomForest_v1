@@ -171,9 +171,15 @@ crr = st.number_input("crr: ", min_value=0.0)  # Add min/max values if applicabl
 independent_gvw = st.number_input("independent_gvw: ", min_value=0.0)  # Add min/max values if applicable
 
 
+peak_motor_power = st.number_input("peak_motor_power: ", min_value=0.0)  # Add min/max values if applicable
+
+drr = st.number_input("drr: ", min_value=0.0)  # Add min/max values if applicable
+
+final_gear = st.number_input("drr: ", min_value=0.0)  # Add min/max values if applicable
+
 # crr = 0.18
-peak_motor_power =4.2
-drr = 0.221
+# peak_motor_power =4.2
+# drr = 0.221
 final_gear = 9.82
 # independent_gvw = 200
 Battery_Energy = 2.8
