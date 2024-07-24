@@ -175,7 +175,7 @@ peak_motor_power = st.number_input("peak_motor_power: ", min_value=0.0)  # Add m
 
 drr = st.number_input("drr: ", min_value=0.0)  # Add min/max values if applicable
 
-final_gear = st.number_input("drr: ", min_value=0.0)  # Add min/max values if applicable
+final_gear = st.number_input("final_gear: ", min_value=0.0)  # Add min/max values if applicable
 
 # crr = 0.18
 # peak_motor_power =4.2
