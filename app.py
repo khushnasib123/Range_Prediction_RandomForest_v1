@@ -180,7 +180,7 @@ final_gear = st.number_input("final_gear: ", min_value=0.0)  # Add min/max value
 # crr = 0.18
 # peak_motor_power =4.2
 # drr = 0.221
-final_gear = 9.82
+#final_gear = 9.82
 # independent_gvw = 200
 Battery_Energy = 2.8
 DOD = 90
